@@ -12,21 +12,7 @@ class Nav extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="collapsibleNavId">
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/tin">Tin Mới</a>
-                    </li>
-                    <li className="nav-item dropdown">
-                        <a className="nav-link" href="/chi-tiet">Chi Tiet</a>                       
-                    </li>
-                    <li className="nav-item dropdown">
-                        <a className="nav-link" href="/dang-ky">Đăng Ký</a>
-                    </li>
-                    <li>
-                        <NavLink to="/home" className="nav-link" >Home</NavLink>
-                    </li>
+                    
                     <li>
                         <NavLink to="/tin" className="nav-link" >Tin Mới</NavLink>
                     </li>
